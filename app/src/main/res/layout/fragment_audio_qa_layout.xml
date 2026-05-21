@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/gradient_background"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="526dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/sv_audio_qa"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="12dp"
+            android:background="#33FFFFFF"
+            android:fillViewport="true">
+
+            <TextView
+                android:id="@+id/tv_audio_qa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/audio_qa_hint"
+                android:textColor="#FFFFFF"
+                android:textIsSelectable="true"
+                android:textSize="14sp" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn_audio_qa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_rounded"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/audio_qa_start"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</FrameLayout>

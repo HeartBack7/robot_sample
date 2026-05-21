@@ -30,6 +30,13 @@ proguard/
 # Log Files
 *.log
 
+# Local development artifacts
+/local_artifacts/
+/build_log.txt
+/logcat_*.txt
+/ui_*.xml
+/screen_*.png
+
 # Android Studio Navigation editor temp files
 .navigation/
 

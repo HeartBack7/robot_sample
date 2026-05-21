@@ -26,6 +26,9 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField "String", "DASHSCOPE_API_KEY", "\"${dashscopeKeyForBuild}\""
         buildConfigField "String", "DASHSCOPE_MODEL", "\"qwen-turbo\""
+        // Qwen-Audio 仅供免费体验、不支持付费；改用 Qwen3-Omni-Flash（OpenAI 兼容、可付费、
+        // 适用于 ≤150 秒短音频）。详见 https://help.aliyun.com/zh/model-studio/qwen-omni
+        buildConfigField "String", "DASHSCOPE_AUDIO_MODEL", "\"qwen3-omni-flash\""
     }
 
     compileOptions {

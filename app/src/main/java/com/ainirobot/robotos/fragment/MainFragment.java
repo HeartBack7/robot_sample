@@ -42,6 +42,13 @@ public class MainFragment extends BaseFragment {
             }
         });
 
+        root.findViewById(R.id.btn_audio_qa_entry).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switchFragment(AudioQaFragment.newInstance());
+            }
+        });
+
         root.findViewById(R.id.nlu_test).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -49,6 +49,25 @@
     <string name="voice_qa_wait_answer">正在生成回答，请稍候。</string>
     <string name="voice_qa_interim_prefix">识别中：</string>
 
+    <string name="audio_qa_entry">百炼语音大模型</string>
+    <string name="audio_qa_hint">实时对话：点击下方按钮开启实时语音交流，应用会自动断句、把每一句话发给百炼 Qwen-Omni 全模态大模型，流式接收回答并由机器人 TTS 播报；再次点击按钮即可结束整段会话。</string>
+    <string name="audio_qa_start">开始实时对话</string>
+    <string name="audio_qa_stop">结束实时对话</string>
+    <string name="audio_qa_recording">实时对话中…（说话即可，再次点击结束）</string>
+    <string name="audio_qa_session_started">实时对话已开启，请直接开口说话</string>
+    <string name="audio_qa_listening">正在监听…</string>
+    <string name="audio_qa_segment_uploading">检测到结束，正在生成回答…</string>
+    <string name="audio_qa_tts_speaking">正在播报…</string>
+    <string name="audio_qa_uploading">正在生成回答…</string>
+    <string name="audio_qa_stopped">实时对话已结束</string>
+    <string name="audio_qa_wait_answer">正在生成回答，请稍候。</string>
+    <string name="audio_qa_network_error">网络请求失败</string>
+    <string name="audio_qa_mic_denied">需要麦克风权限才能使用语音大模型问答。</string>
+    <string name="audio_qa_no_key">未配置 dashscope.api.key，请在 local.properties 中添加。</string>
+    <string name="audio_qa_no_audio">未采集到有效音频，请重试。</string>
+    <string name="audio_qa_max_duration_reached">单句已达到最长时长，自动截断。</string>
+    <string name="audio_qa_record_error">录音失败，请检查麦克风。</string>
+
     <string name="speech_entry">语音播报 / 文本查询</string>
     <string name="speech_hint_text">Play text/Query text</string>
     <string name="speech_play">Play</string>
